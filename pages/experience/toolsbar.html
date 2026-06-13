@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+.box {
+    width: 100%;
+    display: block;
+}
+.tabs {
+    background-color: #e9e9e9;
+    height: auto;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px;
+}
+.tabs input { display: none; }
+
+.tabs label {
+    font-family: 'Aboreto', cursive;
+    font-variant: small-caps;
+    font-size: 0.8em;
+    color: #66656B;
+    background-color: white;
+    text-align: center;
+    max-width: 50%;
+    padding: 0.5em 1.5em;
+    border-bottom-color: white;
+    border: 2px solid #e9e9e9;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 0.5;
+    z-index: 1;
+    position: relative;
+    transition: all 100ms ease-in-out;
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+}
+
+.tabs label:hover { 
+    cursor: pointer;
+    opacity: 0.8;
+    border: 2px solid #e9e9e9;
+    border-bottom-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.tabs label:has(input:checked) {
+    opacity: 1;
+    position: relative;
+    z-index: 9;
+}
+
+.tabs label:has(input:checked)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 4px;
+    background: white;
+}
+
+.content-container {
+    width: initial;
+    padding: 1em;
+    background-color: white;
+    border: 2px solid #e9e9e9;
+    z-index: 6;
+    position: relative;
+    margin-top: -1px;
+}
+
+.content {
+    width: initial;
+    text-align: left;
+    font-family: 'Droid Serif', serif;
+}
+.content:hover { cursor: default; }
+
+.content div {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #c3d7a3;
+    border-radius: 2em;
+    padding: 0.25em 0.5em;
+    margin: 0.15em;
+}
+
+.content i {
+    color: #C7D1B6;
+    font-size: 0.5em;
+    display: inline;
+}
+
+.content span {
+    font-size: 0.65em;
+    display: inline;
+    line-height: normal;
+    color:#77757e;
+    margin-left: 0.5em;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/24d50735af.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <div class="box">
+        <div class="tabs">
+            <label><input type="radio" name="tab" value="c1" checked>Development</label>
+            <label><input type="radio" name="tab" value="c2">Other</label>
+        </div>
+        <div class="content-container">
+
+            <div class="c1 content" id="c1">
+                <div><i class="fa-solid fa-circle"></i><span>VS Code</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Intellij IDEA</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Eclipse</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Arduino</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Terminal</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Git</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>GitHub</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>GitLab</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>JavaFX</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Tkinter</span></div>
+            </div>
+
+            <div class="c2 content" id="c2">
+                <div><i class="fa-solid fa-circle"></i><span>Procreate</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Canva</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Notion</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Photoshop</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Figma</span></div>
+                <div><i class="fa-solid fa-circle"></i><span>Google Suites</span></div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            function updateConstant() {
+                const selectedValue = $('input[name=tab]:checked').val();
+                $(".content").hide();
+                $("." + selectedValue).show();
+            }
+            updateConstant();
+            $('input[name=tab]').click(updateConstant);
+        });
+    </script>
+</body>
+</html>

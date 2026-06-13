@@ -1,0 +1,78 @@
+// TTRPG Dice
+<div class="project-page-tags">
+    <div id="language"><i class="fa-solid fa-code"></i><span>Python</span></div>
+    <div id="libraries"><i class="fa-solid fa-boxes-stacked"></i><span>Tkinter</span></div>
+    <div id="dev-software"><i class="fa-solid fa-laptop-code"></i><span>VS Code</span></div>
+    <div id="art-software"><i class="fa-solid fa-object-group"></i><span>Aseprite</span></div>
+</div>
+
+// Pomodoro App
+<div class="project-page-tags">
+    <div id="language"><i class="fa-solid fa-code"></i><span>Java</span></div>
+    <div id="libraries"><i class="fa-solid fa-boxes-stacked"></i><span>JavaFX</span></div>
+    <div id="dev-software"><i class="fa-solid fa-laptop-code"></i><span>IntelliJ IDEA</span></div>
+    <div id="art-software"><i class="fa-solid fa-object-group"></i><span>Aseprite</span></div>
+</div>
+
+// (old) Tarot Card Project
+<div class="project-page-tags">
+    <div id="language"><i class="fa-solid fa-code"></i><span>Java</span></div>
+    <div id="dev-software"><i class="fa-solid fa-laptop-code"></i><span>Eclipse</span></div>
+    <div id="art-software"><i class="fa-solid fa-object-group"></i><span>Procreate</span></div>
+    <div id="org-software"><i class="fa-solid fa-folder-tree"></i><span>Google Drive</span></div>
+</div>
+
+// (new) Tarot Card Project
+<div class="project-page-tags">
+    <div id="language"><i class="fa-solid fa-code"></i><span>Python</span></div>
+    <div id="dev-software"><i class="fa-solid fa-laptop-code"></i><span>VS Code</span></div>
+    <div id="art-software"><i class="fa-solid fa-object-group"></i><span>Procreate</span></div>
+    <div id="org-software"><i class="fa-solid fa-folder-tree"></i><span>Notion</span></div>
+    <div id="org-software"><i class="fa-solid fa-folder-tree"></i><span>Google Drive</span></div>
+    <div id="other"><i class="fa-solid fa-circle"></i><span>Carrd</span></div>
+</div>
+
+// UWM Video Game Project
+<div class="project-page-tags">
+    <div id="art-software"><i class="fa-solid fa-object-group"></i><span>Aseprite</span></div>
+    <div id="org-software"><i class="fa-solid fa-folder-tree"></i><span>Notion</span></div>
+</div>
+
+// Halloween Fanzine
+<div class="project-page-tags">
+    <div id="art-software"><i class="fa-solid fa-object-group"></i><span>Procreate</span></div>
+</div>
+
+// Project 1-1
+<div class="project-page-tags">
+    <div id="language"><i class="fa-solid fa-code"></i><span>C++</span></div>
+    <div id="language"><i class="fa-solid fa-code"></i><span>Java</span></div>
+    <div id="libraries"><i class="fa-solid fa-boxes-stacked"></i><span>JavaFX</span></div>
+    <div id="dev-software"><i class="fa-solid fa-laptop-code"></i><span>Arduino IDE</span></div>
+    <div id="dev-software"><i class="fa-solid fa-laptop-code"></i><span>IntelliJ IDEA</span></div>
+    <div id="dev-software"><i class="fa-solid fa-laptop-code"></i><span>Gitlab</span></div>
+</div>
+
+// Project 1-2
+<div class="project-page-tags">
+    <div id="language"><i class="fa-solid fa-code"></i><span>Java</span></div>
+    <div id="libraries"><i class="fa-solid fa-boxes-stacked"></i><span>JavaFX</span></div>
+    <div id="libraries"><i class="fa-solid fa-boxes-stacked"></i><span>Maven</span></div>
+    <div id="libraries"><i class="fa-solid fa-boxes-stacked"></i><span>Command Line</span></div>
+    <div id="dev-software"><i class="fa-solid fa-laptop-code"></i><span>IntelliJ IDEA</span></div>
+    <div id="other"><i class="fa-solid fa-circle"></i><span>GTFS Datasets</span></div>
+    <div id="other"><i class="fa-solid fa-circle"></i><span>LaTeX</span></div>
+    <div id="other"><i class="fa-solid fa-circle"></i><span>Overleaf</span></div>
+</div>
+
+//////////////////////////////////
+// TEMPLATE //
+<div class="project-page-tags">
+    <div id="language"><i class="fa-solid fa-code"></i><span>language</span></div>
+    <div id="libraries"><i class="fa-solid fa-boxes-stacked"></i><span>libraires</span></div>
+    <div id="dev-software"><i class="fa-solid fa-laptop-code"></i><span>dev software</span></div>
+    <div id="art-software"><i class="fa-solid fa-object-group"></i><span>art software</span></div>
+    <div id="org-software"><i class="fa-solid fa-folder-tree"></i><span>organization software</span></div>
+    <div id="other"><i class="fa-solid fa-circle"></i><span>other</span></div>
+</div>
+//////////////////////////////////
